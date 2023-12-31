@@ -270,12 +270,12 @@ public class FourInARow extends JFrame {
                         counter++;
                     }
                 } catch (Exception e){
-                    System.out.println("oiscol");
+                    //System.out.println("oiscol");
                 }
 
             }
             if(counter==4){
-                System.out.println("Column true");
+                //System.out.println("Column true");
                 return true;
             }
         }
@@ -291,7 +291,7 @@ public class FourInARow extends JFrame {
                         counter++;
                     }
                 } catch (Exception e){
-                    System.out.println("oiscrl");
+                    //System.out.println("oiscrl");
                 }
 
             }
@@ -312,7 +312,7 @@ public class FourInARow extends JFrame {
                         counter++;
                     }
                 } catch (Exception e){
-                    System.out.println("oiscrr");
+                    //System.out.println("oiscrr");
                 }
 
             }
