@@ -24,10 +24,10 @@ public class FourInARow extends JFrame {
     FourInARow(){
         super("Four In A Row");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(715, 690);
+        setSize(715, 680);
         boardPanel();
         modeButton();
-        playerTurn.setBounds(450, 614, 200, 35);
+        playerTurn.setBounds(450, 610, 200, 35);
         playerTurn.setForeground(Color.BLACK);
         playerTurn.setBackground(Color.BLACK);
         playerTurn.setEditable(false);
