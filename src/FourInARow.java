@@ -280,7 +280,6 @@ public class FourInARow extends JFrame {
         }
         return false;
     }
-
     private boolean checkRightCross(int x,int y, int[][] board, int player){
         for(int i = -3; i<=0; i++){
             int counter = 0;
@@ -292,7 +291,6 @@ public class FourInARow extends JFrame {
                 } catch (Exception e){
                     //System.out.println("oiscrr");
                 }
-
             }
             if(counter==4){
                 //System.out.println("Cross Right true");
@@ -301,5 +299,4 @@ public class FourInARow extends JFrame {
         }
         return false;
     }
-
 }
